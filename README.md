@@ -31,6 +31,9 @@ git --version
 ```
 
 #
+
+
+#
 ### login git in Terminal 
 
 Two method for git login
@@ -62,7 +65,7 @@ git push main origin
 ```bash
 
 ```
-
+#
 
 
 #
@@ -113,6 +116,10 @@ git commit -m "Your message"
 ```
 
 #
+
+
+
+
 # 🛠️ Git Commands Cheat Sheet: Basic to Advanced
 
 ## 📂 1. Setup & Initialization
@@ -292,6 +299,8 @@ Integrates all the latest updates from the main branch into your current branch 
 ```bash
 git rebase main
 ```
+#
+
 
 
 # Claude Extensions use command
