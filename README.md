@@ -1,3 +1,5 @@
+
+
 #
 # Terminal CMD
 
@@ -28,29 +30,36 @@ check git version
 git --version
 ```
 
-login git in Terminal 
+#
+### login git in Terminal 
+
+Two method for git login
+#
+M-I
+
+install git Cli
 ```bash
 winget install GitHub.cli
 ```
-two types of login type A
-
-for git cli install
+#
+M-II
+login git in Terminal 
 ```bash
-sudo apt install gh
-```
-
-```bash
-
+git auth login
 ```
 ```bash
-
+git add .
+```
+```bash
+git commit -m "my_commit"
+```
+```bash
+git push main origin 
 ```
 ```bash
 
 ```
 ```bash
-
-``````bash
 
 ```
 
