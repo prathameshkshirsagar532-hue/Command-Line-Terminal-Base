@@ -95,16 +95,17 @@ git clone <repository_url>
 
 📝 2. Everyday Workflow (रोज़ाना काम आने वाले बेसिक कमांड्स)
 ```bash
-
+git status
 ```
 ```bash
-
+git add <file_name>
 ```
 ```bash
-
+git add .
 ```
-
-
+```bash
+git commit -m "Your message"
+```
 
 
 
