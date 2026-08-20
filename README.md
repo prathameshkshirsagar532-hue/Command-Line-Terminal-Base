@@ -66,43 +66,48 @@ git push main origin
 
 
 #
-📂 1. Setup & Initialization (शुरुआत करने के लिए)
-जब आप पहली बार Git का इस्तेमाल करते हैं, तो अपनी पहचान सेट करने और नई रिपोजिटरी बनाने के लिए इन कमांड्स का उपयोग होता है:
+📂 1. Setup & Initialization :Used when starting with Git for the very first time on your system or creating a new project
+
+Sets your commit username
 ```bash
 git config --global user.name "user_name"
 ```
- अपनी ईमेल आईडी सेट करें।
+ Sets your commit email address
 ```bash
 git config --global user.email "your.email@example.com"
 ```
-अपने कंप्यूटर के किसी नॉर्मल फोल्डर को Git Repository में बदलें।
+Initializes a brand new local Git repository in your current folder
 ```bash
 git init
 ```
-
-
-GitHub पर मौजूद किसी प्रोजेक्ट को अपने कंप्यूटर पर डाउनलोड करें।
-
+Downloads an existing project from GitHub to your computer
 ```bash
 git clone <repository_url>
+
 ```
+
+
+
+
+
+
+
 #
+📝 2. Everyday Workflow : The core commands you will use multiple times a day to track and save your work
 
-
-
-
-
-
-📝 2. Everyday Workflow (रोज़ाना काम आने वाले बेसिक कमांड्स)
+Shows modified, staged, and untracked files in your project
 ```bash
 git status
 ```
+Adds a specific file to the staging area (prepares it to be saved).
 ```bash
 git add <file_name>
 ```
+Adds all changed and new files to the staging area at once
 ```bash
 git add .
 ```
+Permanently saves your staged snapshot with a custom message.
 ```bash
 git commit -m "Your message"
 ```
